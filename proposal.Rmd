@@ -1,0 +1,65 @@
+---
+title: "Violence against Women in Afghanistan "
+author: 
+  - ARSLAN, KAAN ALPEREN ARSLAN[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080379, [midterm](https://github.com/kaanalperenarslan/midterm2.git)
+
+
+
+# Introduction
+
+Gender-based violence (GBV) is a significant and widespread problem in Afghanistan, where conflict, gender inequality, and patriarchal societal structures contribute to high rates of intimate partner violence (IPV) towards women. Despite the prevalence of IPV, help-seeking is uncommon among Afghan women, with informal sources of support being the most commonly used. This highlights the need for a better understanding of what shapes help-seeking behaviors to increase social support and reduce the negative health effects of IPV. The Women for Women International (WfWI) economic and social empowerment program is a potential intervention to reduce IPV and depression among Afghan women, but further research is needed to determine its effectiveness. In addition, strategies to improve health care responses to GBV are necessary to ensure the safety and support of Afghan women. This issue is complex and multifaceted, and efforts to address GBV must address individual, interpersonal, and community-level factors.
+
+## Literature Review
+
+Gender-based violence (GBV) is a pervasive problem in Afghanistan, where ongoing internal conflict, high gender inequality, and a patriarchal society contribute to a high prevalence of intimate partner violence (IPV) towards women. Women who experience IPV often face stigmatizing and traumatic experiences when telling their stories, but storytelling under supportive conditions has been shown to be a valuable experience that can help formulate positive social identities and challenge broader social structures. [@mannell2018narrative]
+
+Help-seeking for IPV in Afghanistan is uncommon, with informal sources of support being almost universally used among the 20% of women who reported seeking help. Engagement with the health care system, barriers to accessing health care, and decision-making power were all significantly associated with seeking help for IPV. A better understanding of what shapes help-seeking in this context may allow more women to disclose violence, increasing social support and reducing the negative health effects of IPV.[@metheny2019help]
+
+The Women for Women International (WfWI) economic and social empowerment program is one potential intervention to reduce women's experiences of IPV and depression in Afghanistan. However, more research is needed to determine its effectiveness.[@gibbs2020impacts]
+
+In terms of care-seeking among women victims of GBV in Afghanistan, a study found that the majority received medical treatment for abuse-related health concerns, but less than half reported abuse to health care providers or were asked about the context of their injuries. Strategies to improve health care responses to GBV are needed to ensure safety and support for Afghan women.[@stokes2016care]
+
+Overall, GBV is a complex and pervasive issue in Afghanistan, with multiple factors contributing to its prevalence and perpetuation. Efforts to reduce GBV and improve support for survivors must be multifaceted and address individual, interpersonal, and community-level factors. Further research is needed to better understand the experiences of women who have experienced GBV and the most effective interventions to address this issue in Afghanistan.
+   
+
+
+
+**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
+
+**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
